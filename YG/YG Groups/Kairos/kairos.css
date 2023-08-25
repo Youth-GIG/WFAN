@@ -15,7 +15,13 @@ html{
   
   body{
       margin: 0 auto;
+      background-image: url(elements/element1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
       background-color: #252525;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
   }
   
   /* Set both colors */
@@ -141,17 +147,231 @@ html{
 
 .box01{
     width: 100%;
-    height: 600px;
-}
+    height: auto;
+    background-color: #000000c2;
+    margin-top: 400px;
+    backdrop-filter: blur(100px);
+  }
 
 .title{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     font-family: sf-pro-bold;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
 }
+
+.details{
+
+  font-family: sf-pro;
+  color: rgb(145, 145, 145);
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+.flex{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+.bar-1{
+  width: 8px;
+  background-color: #383838;
+  border-radius: 100px;
+}
+
+.text-container-1{
+  width: 100%;
+}
+
+.flex2{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 120px;
+  gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 470px;
+}
+
+.img-head {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  border-radius: 0px 0px 0px 0px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 16px;
+  margin-right: 16px;
+  transition: 0.6s ease;
+  border-radius: 100px;
+  user-select: none;
+  width: 10px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #363636a1;
+  transform: scale(1.05);
+}
+
+.box-dot{
+    position: absolute;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    margin-top: -180px;
+    background-color: rgba(42, 42, 42, 0.8);
+    backdrop-filter: blur(100px);
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    width: 60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #6A6A6A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active2, .dot:hover {
+  background-color: #ffffff;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+
+
+
+
+.img-container03{
+  width: 70%;
+  height: auto;
+  margin-top: -160px;
+  margin-left: 10px;
+  z-index: 1;
+  margin-top: -40px;
+}
+
+
+
+.title2{
+  font-family: 'Times New Roman';
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-container03{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+/*------------------------------------*/
+
+
+
+
+.flex3{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 60px;
+  gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,7 +402,7 @@ html{
     height: 1px;
     background-color: #424242;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 500px;
     border-radius: 20px;
 }
 
@@ -369,6 +589,54 @@ html{
   
 
 
+  .flex{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+  }
+  
+  .bar-1{
+    width: 8px;
+    background-color: #383838;
+    border-radius: 100px;
+  }
+  
+  .text-container-1{
+    width: 100%;
+  }
+  
+  .flex2{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 120px;
+    gap: 30px;
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 120px;
+  }
+    
+  .flex3{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 70px;
+    gap: 30px;
+  }
 
 
 
@@ -482,10 +750,7 @@ html{
   
   
   @media only screen and (max-width:750px) {
-  
-    .slideshow-container{
-      display: none;
-    }
+
   
     /* Set both colors */
   ::-webkit-scrollbar {
@@ -619,205 +884,197 @@ html{
   
   
   
+
+  .flex{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+  }
+  
+  .bar-1{
+    width: 8px;
+    background-color: #383838;
+    border-radius: 100px;
+  }
+  
   .text-container-1{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    margin-top: 50px;
-    justify-content: center;
-  }
-  
-  .container-1{
-    display: flex;
-    width: 95%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 15px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-  
-  }
-  
-  .box1{
-    width: 270px;
-    height: 230px;
-    background-color: #191919;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.40s;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
-    scroll-snap-align: center;
-      border: rgba(28, 28, 30, 0.3) solid 1px;
-  }
-  
-  .flex-3{
-    width: auto;
-    display: flex;
-    gap: 20px;
-    position: absolute;
-  }
-  
-  .button-3{
-    background-color: rgba(28, 28, 30, 0.7);
-      backdrop-filter: blur(6px);
-    font-family: "sf-pro";
-    color: rgb(0, 0, 0);
-    text-align: center;
-      width: 40px;
-      height: 40px;
-      border-radius: 100px;
-      margin-top: -37px;
-      margin-left: 210px;
-      position: absolute;
-      transition: 0.2s;
-      border: rgba(28, 28, 30, 0.3) solid 1px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
-  
-  }
-  
-  
-  .button-3:hover{
-    background-color: rgba(0, 122, 255, 1);
-    color: white;
-  }
-  
-  .material-symbols-rounded {
-      font-size: 38px !important;
-      margin-top: 1px;
-    color: white;
-  
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 700,
-    'GRAD' 200,
-    'opsz' 48
-  }
-  
-  .img{
     width: 100%;
+  }
+  
+  .flex2{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 150px;
+    gap: 30px;
+  }
+  
+  .flex3{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 150px;
+    gap: 30px;
+  }
+
+  .slideshow-container{
+    display: none;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/*------------------------------------*/
+
+/* Slideshow container */
+.slideshow-container-mobile {
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+/* Hide the images by default */
+.mySlides-mobile {
+  display: none;
+  height: 470px;
+}
+
+.img-head {
     height: 100%;
+    width: 100%;
     object-fit: cover;
-      border-radius: 30px;
-      transition: 0.40s;
-  }
-  
-  .text-container{
-    display: flex;
+  border-radius: 0px 0px 0px 0px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 16px;
+  margin-right: 16px;
+  transition: 0.6s ease;
+  border-radius: 100px;
+  user-select: none;
+  width: 10px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #363636a1;
+  transform: scale(1.05);
+}
+
+.box-dot{
     position: absolute;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
     z-index: 1;
-    right: 0;
-    margin-right: 0px;
-    margin-top: 0;
-  opacity: 0;
+    margin-top: -180px;
+    background-color: rgba(42, 42, 42, 0.8);
+    backdrop-filter: blur(100px);
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    width: 60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #6A6A6A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active2, .dot:hover {
+  background-color: #ffffff;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+
+
+
+
+.img-container03{
+  width: 90%;
+  height: auto;
+  margin-top: -160px;
+  margin-left: 0px;
+  z-index: 1;
+  margin-top: -40px;
+}
+
+
+
+.title2{
+  font-family: 'Times New Roman';
+  font-size: 70px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-container03{
   width: 100%;
-  height: 100%;
-  transition: 0.40s;
-  }
-  
-  .text-container:hover{
-    opacity: 1;
-  }
-  
-  
-  .button-2{
-    background-color: rgba(37, 37, 37,0.7);
-      backdrop-filter: blur(2px);
-    font-family: "sf-pro";
-    text-align: center;
-    height: 40px;
-      width: 40px;
-      border-radius: 100px;
-      transition: 0.40s;
-      margin-top: 180px;
-      margin-right: 10px;
-      position: absolute;
-      right: 0;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
-  }
-  
-  .button-2:hover{
-      background-color: #3b82fe;
-  }
-  
-  .material-symbols-outlined {
-    color: white;
-    margin-top: 5px;
-      font-size: 31px !important;
-  
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 700,
-    'GRAD' 200,
-    'opsz' 24
-  }
-  
-  .slider{
-    height: 190px;
-    margin: auto;
-    position: relative;
-    width: 95%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-  }
-  
-  .slide-track {
-    display: flex;
-    width: calc(300 * 18);
-    animation: scroll 35s linear infinite;
-  }
-  
-  
-  .slider-2{
-    height: 190px;
-    margin: auto;
-    position: relative;
-    width: 95%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-  }
-  
-  .slide-track-2 {
-    display: flex;
-    width: calc(300 * 18);
-    animation: scroll 40s linear infinite;
-  }
-  
-  .slide {
-    height: 150px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-  }
-  
-  
-  .box1:hover{
-    filter: brightness(1);
-    transform: scale(1);
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+/*------------------------------------*/
   
   
   
@@ -836,7 +1093,7 @@ html{
   }
   
   .bar3{
-    margin-top: 50px;
+    margin-top: 350px;
   }
   
   .bottom-div-container{
