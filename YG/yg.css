@@ -925,6 +925,10 @@ height: auto;
     display: none;
   
   }
+
+  text{
+    background-color: #1ed760;
+  }
   
   ::-webkit-scrollbar-thumb {
     display: none;
@@ -1247,7 +1251,9 @@ height: auto;
 
 
 
-
+section{
+  background-color: #1ed760;
+}
 
 
 

@@ -16,9 +16,6 @@
 }
 html{
   scroll-behavior: smooth;
-     -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
 -webkit-tap-highlight-color: transparent;
 
 }
@@ -254,7 +251,7 @@ border: none;
 button:active{
   background-color: #414141;
   transition: 0.16s;
-  transform: scale(.9);
+  transform: scale(.1);
 }
 
 button:hover{
