@@ -362,7 +362,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
     right: 0px;
     position: absolute;
     transition: 0.2s;
-    border: rgba(28, 28, 30, 0.3) solid 1px;
+    border: rgba(28, 28, 30, 0.3) solid 2px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
 
 }
@@ -560,7 +560,7 @@ a:link{
 }
 
 .text-container-4{
-    width: 60%;
+    width: 90%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -568,9 +568,16 @@ a:link{
 }
 
 .img-container-5{
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    transition: 0.40s;
 }
 
 
