@@ -490,7 +490,7 @@ a:link{
 .text-container3{
   position: absolute;
   z-index: 1;
-  margin-top: 0px;
+  margin-top: -50px;
   margin-left: 15px;
 }
 
@@ -498,7 +498,7 @@ a:link{
   width: auto;
   display: flex;
   gap: 20px;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 .slider {
