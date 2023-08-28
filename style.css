@@ -184,8 +184,8 @@ body{
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #363636a1;
-  border:  2px solid rgba(28, 28, 30, 0.2);
   transform: scale(1.05);
+  border:  2px solid rgba(28, 28, 30, 0.459);
 }
 
 .box-dot{
