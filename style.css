@@ -64,10 +64,12 @@ body{
     width: 30px;
     margin-left: 15px;
     transition: 0.40s;
+    border-radius: 7px;
 }
 
 .wfan-logo:hover{
   transform: scale(1.2);
+  background-color: #00000025;
 }
 
 .topnav {

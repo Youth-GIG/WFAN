@@ -161,14 +161,15 @@ html{
 }
 
 .text-container-1{
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 }
 
 .text-container-2{
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -176,7 +177,7 @@ html{
 }
 
 .img-container-2{
-    width: 50%;
+    width: 40%;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -184,7 +185,7 @@ html{
 }
 
 .text-container-3{
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
