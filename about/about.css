@@ -140,12 +140,13 @@ body{
   margin-top: -20px;
   font-family: "sf-pro";
   color: #C6C6C6;
+  font-size: 15px;
 }
 
 .details-2{
   font-family: "sf-pro";
   color: #ffffffa1;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .container-1{
@@ -236,7 +237,6 @@ body{
     justify-content: center;
 
 }
-
 
 
 
@@ -823,24 +823,25 @@ height: auto;
 }
 
 .details{
-  margin-top: -0px;
+  margin-top: 30px;
   font-family: "sf-pro";
   color: #C6C6C6;
+  font-size: 11px;
 }
 
 .details-2{
   font-family: "sf-pro";
   color: #C6C6C6;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .container-1{
   width: 100%;
-  height: auto;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 0px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.497);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.497);
 }
 
 .text-container-1{
@@ -928,9 +929,36 @@ height: auto;
   transform: scale(1.1);
 }
 
-
+.flex{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 50px;
+  gap: 30px;
+}
 
  
+.flex-01{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 80px;
+  gap: 30px;
+}
+
+.bar-1{
+  width: 8px;
+  background-color: #3838383e;
+  border-radius: 100px;
+}
+
+.text-container-1{
+  width: 100%;
+}
 
 
 
