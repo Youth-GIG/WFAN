@@ -76,8 +76,7 @@ body{
     height: 44px;
     max-height: 50px;
     width: 100%;
-    background-color: rgba(18, 18, 18, 0.5);
-    backdrop-filter: blur(100px);
+
 }
 
 .wfan-logo{
@@ -184,10 +183,10 @@ body{
   width: 100%;
   height: 100%;
   margin-right: auto;
-  margin-top: 520px;
-  background-color: #0000008a;
+  margin-top: -40px;
+  background-color: rgba(18, 18, 18, 0.5);
   backdrop-filter: blur(30px);
-  padding-top: 10px;
+  padding-top: 90px;
 }
 
 .flex{
@@ -196,7 +195,7 @@ body{
   width: 100%;
   height: 100%;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 .container{
@@ -212,6 +211,7 @@ body{
   width: 690px;
   height: 100%;
   border-radius: 20px;
+  border: 1px rgba(255, 255, 255, 0.363) solid;
 }
 
 .div-container{
@@ -226,20 +226,20 @@ body{
     border-radius: 25px;
   width: 390px;
   height: 140px;
-  background-color: #9191911a;
+  background-color: #0000002c;
     backdrop-filter: blur(90px);
     margin-left: auto;
-    border: 2px rgba(0, 0, 0, 0.363) solid;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
 
 .div2{
     border-radius: 25px;
     width: 390px;
     height: 350px;
-    background-color: #9191911a;
+    background-color: #0000002c;
     backdrop-filter: blur(90px);
     margin-left: auto;
-    border: 2px rgba(0, 0, 0, 0.363) solid;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
 
 .text-container2{
@@ -537,21 +537,26 @@ height: auto;
   gap: 20px;
   }
 
-.div1{
-    border-radius: 20px;
+  .div1{
+    border-radius: 25px;
   width: 300px;
-  height: 160px;
-    background-color: rgba(44, 44, 46, 0.5);
-    backdrop-filter: blur(30px);  margin-left: auto;
+  height: 140px;
+  background-color: #0000002c;
+    backdrop-filter: blur(90px);
+    margin-left: auto;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
 
 .div2{
-    border-radius: 20px;
-  width: 300px;
-  height: 320px;
-    background-color: rgba(44, 44, 46, 0.5);
-    backdrop-filter: blur(30px);  margin-left: auto;
+    border-radius: 25px;
+    width: 300px;
+    height: 350px;
+    background-color: #0000002c;
+    backdrop-filter: blur(90px);
+    margin-left: auto;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
+
 
 .text-container2{
   margin-top: -13px;
@@ -597,7 +602,7 @@ transform: scale(1);
 
 .scroll-container{
   width: 90%;
-  height: 220px;
+  height: 260px;
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -883,25 +888,24 @@ height: auto;
   gap: 20px;
   }
 
-.div1{
+  .div1{
     border-radius: 25px;
   width: 100%;
   height: 140px;
-  background-color: #33333370;
-    backdrop-filter: blur(30px);
+  background-color: #0000002c;
+    backdrop-filter: blur(90px);
     margin-left: auto;
-    margin-right: auto;
-    border: 1px rgba(0, 0, 0, 0.363) solid;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
 
 .div2{
     border-radius: 25px;
     width: 100%;
     height: 350px;
-    background-color: #33333370;
-    backdrop-filter: blur(30px);
+    background-color: #0000002c;
+    backdrop-filter: blur(90px);
     margin-left: auto;
-    border: 1px rgba(0, 0, 0, 0.363) solid;
+    border: 1px rgba(255, 255, 255, 0.092) solid;
   }
 
 .text-container2{
@@ -917,7 +921,7 @@ height: auto;
   padding-top: 4px;
   padding-bottom:   20px;
   background-color: #00000046;
-  width: 83%;
+  width: 87%;
   height: auto;
   justify-content: center;
   margin-left: auto;
@@ -927,7 +931,7 @@ height: auto;
 }
 
 .text-container3:hover{
-  transform: scale(1.06);
+  transform: scale(1);
 }
 
 .title2{
@@ -947,7 +951,7 @@ height: auto;
 
 .scroll-container{
   width: 91%;
-  height: 265px;
+  height: 267px;
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -1035,7 +1039,7 @@ a:link{
 .bottom-div-container{
   width: auto;
   margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-top: -40px;
 }
 
