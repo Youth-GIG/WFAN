@@ -192,7 +192,7 @@ body{
 
 .bar-1{
   width: 8px;
-  background-color: #383838;
+  background-color: #38383858;
   border-radius: 100px;
 }
 
@@ -600,7 +600,7 @@ height: auto;
 
 .bar-1{
   width: 8px;
-  background-color: #383838;
+  background-color: #38383858;
   border-radius: 100px;
 }
 
@@ -895,7 +895,7 @@ height: auto;
 }
 
 .flex1{
-  width: 85%;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -912,7 +912,7 @@ height: auto;
 
 .bar-1{
   width: 8px;
-  background-color: #383838;
+  background-color: #38383858;
   border-radius: 100px;
 }
 
@@ -931,7 +931,7 @@ height: auto;
 
 
 .flex2{
-  width: 85%;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -939,13 +939,96 @@ height: auto;
   gap: 30px;
   margin-top: 30px;
   padding: 10px;
-  padding-top: 45px;
+  padding-top: 20px;
   padding-bottom: 45px;
   padding-right: 45px;
   border-radius: 20px;
   transition: 0.40s;
 }
 
+
+
+
+
+
+
+
+
+.scroll-container-mobile{
+  display: flex;
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  gap: 15px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  border-radius: 20px;
+
+}
+
+.box-mobile{
+  width: 300px;
+  height: 500px;
+  border-radius: 0px;
+  overflow: hidden;
+  transition: 0.40s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
+  scroll-snap-align: start;
+  border-radius: 20px;
+
+}
+
+.img3 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+border-radius: 20px;
+
+}
+
+.text-container2{
+  position: relative;
+  z-index: 0;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.button{
+  background-color: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(10px);
+  font-family: "sf-pro";
+  color: rgb(0, 0, 0);
+  text-align: center;
+    padding: 9px 1%;
+    width: 180px;
+    border-radius:11px;
+    transition: 0.40s;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.497);
+}
+
+.button:hover{
+  background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+
+}
+
+.img-container03{
+  width: 80%;
+  height: auto;
+  margin-top: 0px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 

@@ -158,22 +158,51 @@ html{
     font-family: sf-pro;
     color: #919191;
     font-size: 15px;
+    margin-top: 60px;
 }
 
 .text-container-1{
-    width: 40%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
 }
 
+.flex-01{
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 80px;
+  gap: 30px;
+}
+
+.flex-02{
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 80px;
+  margin-bottom: 250px;
+  gap: 30px;
+}
+
+.bar-1{
+  width: 8px;
+  background-color: #3838383e;
+  border-radius: 100px;
+}
+
+
 .text-container-2{
-    width: 40%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;
+    margin-top: 0px;
 }
 
 .img-container-2{
@@ -270,10 +299,6 @@ html{
     margin-bottom: 30px;
     border-radius: 100px;
 }
-
-
-
-
 
 
 
@@ -617,9 +642,53 @@ html{
 
 
 
+.download-div{
+  display: none;
+}
+
+.text-container-1{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.flex-01{
+width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding-top: 80px;
+gap: 30px;
+}
+
+.flex-02{
+width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding-top: 80px;
+margin-bottom: 250px;
+gap: 30px;
+}
+
+.bar-1{
+width: 8px;
+background-color: #3838383e;
+border-radius: 100px;
+}
 
 
-
+.text-container-2{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
 
 
 
@@ -871,17 +940,6 @@ html{
     margin-top: 40px;
 }
 
-.download-div{
-    width: 270px;
-    height: 335px;
-    background-color: #191919;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
-}
 
 .text-container-download-1{
     width: 80%;
@@ -937,23 +995,26 @@ html{
     text-align: center;
 }
 
+
 .download-div-2{
-    width: 320px;
-    height: 50px;
-    background-color: #191919;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    border-radius: 100px;
-    display: none;
+  width: 320px;
+  height: 50px;
+  background-color: #191919;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  border-radius: 100px;
+  display: none;
 }
 
 
   
 .download-div{
-    width: 85%;
+    width: 90%;
     height: 355px;
     background-color: #191919;
     position: relative;
@@ -962,6 +1023,8 @@ html{
     margin-top: 70px;
     border-radius: 20px;
     padding-top: 1px;
+    margin-bottom: 230px;
+    display: block;
 }
 
 .text-container-download-1{
@@ -1017,28 +1080,69 @@ html{
     position: absolute;
     text-align: center;
 }
-
-.download-div-2{
-    width: 320px;
-    height: 50px;
-    background-color: #191919;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin-right: 20px;
-    margin-bottom: 30px;
-    border-radius: 100px;
+  
+  
+  
+  
+  
+  
+  
+  
+.text-container-1{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+.flex-01{
+width: 90%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding-top: 80px;
+gap: 30px;
+}
+
+.flex-02{
+width: 90%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding-top: 150px;
+margin-bottom: 0px;
+gap: 30px;
+}
+
+.flex-03{
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 150px;
+  margin-bottom: 100px;
+  gap: 30px;
+  }
+
+.bar-1{
+width: 8px;
+background-color: #3838383e;
+border-radius: 100px;
+}
+
+
+.text-container-2{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
   
   
   

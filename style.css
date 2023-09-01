@@ -148,7 +148,7 @@ body{
 /* Hide the images by default */
 .mySlides {
   display: none;
-  height: 83vh;
+  height: 90vh;
 }
 
 .img-head {
