@@ -1015,7 +1015,7 @@ border-radius: 100px;
   
 .download-div{
     width: 90%;
-    height: 355px;
+    height: 410px;
     background-color: #191919;
     position: relative;
     margin-right: auto;
@@ -1051,7 +1051,7 @@ border-radius: 100px;
 
 .flex-box-1{
     width: 90%;
-    height: 200px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     display: flex;
