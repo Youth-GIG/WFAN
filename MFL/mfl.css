@@ -24,7 +24,7 @@ html{
 
 body{
     margin: 0 auto;
-    background-color: #f0f0f0;
+    background-color: #D6D6D6;
 }
 
 /* Set both colors */
@@ -180,64 +180,43 @@ body{
   margin-top: -20px;
 }
 
-.container{
-  border-radius: 0px 30px 0px 0px;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  padding-right: 20px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -150px;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(30px);
-}
-
-
-.flex{
-  width: 40%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  gap: 25px;
-  margin-top: 70px;
-}
-
-.bar-1{
-  width: 7px;
-  background-color: #c2c2c2;
-  border-radius: 100px;
-}
-
-
 .text-container{
-  width: 100%;
-  height: auto;
-  margin-top: -35px;
-}
-
-.img-container-3{
-  width: 40%;
-  height: auto;
+  width: 35%;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.section-2{
+.img-container02{
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-container02{
+  width: 80%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+}
+
+.flex-box{
+  display: flex;
   width: 100%;
-  height: auto;
-  background-color: white;
-  margin-top: 200px;
-  padding-top: 40px;
+  height: 350px;
+  gap: 6px;
+  margin-top: 6px;
 }
 
-
-
-
-
+.img2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.40s;
+  border-radius: 300px;
+}
 
 
 
@@ -290,7 +269,6 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-  border-radius: 23px;
 
 }
 
@@ -499,7 +477,7 @@ a:link{
     height: 1px;
     background-color: #48484a;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 1500px;
 }
 
 .bottom-div-container{
@@ -859,6 +837,10 @@ height: auto;
 
 
 @media only screen and (max-width:750px) {
+
+
+
+
     /* Set both colors */
 ::-webkit-scrollbar {
   display: none;
@@ -1026,10 +1008,100 @@ height: auto;
 .section-2{
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: #dfdfdf;
   margin-top: 200px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
+
+.text-container02{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.flex-box{
+  display: flex;
+  width: 85%;
+  height: 100px;
+  gap: 6px;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-box{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .scroll-container-mobile{
